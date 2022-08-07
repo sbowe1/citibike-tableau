@@ -1,0 +1,62 @@
+# Citibike Tableau Analysis
+This analysis corresponds to the storyboard posted at https://public.tableau.com/views/citibike_16594286821780/Story?:language=en-US&:display_count=n&:origin=viz_share_link.
+
+## How Does Ridership Vary Throughout The Year?
+
+### Time Dashboard
+The bar chart on the top half of the dashboard illustrates how ridership is distributed throughout the year.
+These values account for all trips between January 2020 and June 2022. Months with greater than 150,000 trips are 
+depicted in purple, months with greater than 100,000 trips in dark blue, and other months in light blue. Winter months,
+from December to February, all demonstrate 'Low' levels of activity (light blue bars). Summer months (June to August), on the other hand,
+range from 'High' to 'Medium' levels activity. This increase in activity correlates with the rising temperatures beginning 
+in May. 
+
+The line graph on the bottom left shows the total number of rides during each hour of the summer months. Color coding functions the same as
+in the bar chart, with purple corresponding to high activity, dark blue with medium activity, and light blue with low activity. Summer activity 
+peaks at hour 18, with 48,001 recorded trips. This coincides with the end of the typical work day. Similar small peaks are also present at 
+hours 8 and 12, concurring with the beginning of the work day and lunch time, respectively. 
+
+The line graph on the bottom right shows the total number of rides during each hour of the winter months. Color coding functions the same as
+in the other line graph and bar chart, with purple corresponding to high activity, dark blue with medium activity, and light blue with low 
+activity. One thing to note is that the maximum ridership during the winter is almost half of the ridership recorded during the summer, at only 
+26,243 trips. Once again, this drastic drop in ridership can be attributed to New York's cold, snowy winter weather. Similar to the summer months, 
+ridership peaks at the start and end of the work day (hours 8 and 17/18).
+
+
+## How Has Membership Changed During the Pandemic?
+
+### Ridersihp Types Over Time
+This stacked bar chart portrays the fluctuating ratio of part-time and full-time members over the course of the pandemic 
+so far. Full-time members are in purple and part-time members are in dark blue. Inside each bar is the total number of trips made
+by the corresponding rider type. Hovering over a bar reveals the percent change of that particular rider type since January 2020.
+Each subsequent year reveals a similar pattern of increased ridership during the summer, and reduced ridership during the cold winter 
+months. Although ridership drops at the beginning of each year, peak ridership seems to be increasing year after year. Looking at 2021 and 
+2022 in particular, the percentage of part-time riders increases into the summer months and drop off again during the winter, peaking near 
+40%. This suggests that warmer temperatures entice more users to enjoy citibike part-time, and encourage some part-time users to convert to 
+full-time usership. By the end of June 2022, part-time ridership had increased by 2,441% and full-time ridership by 158%. The overall increase 
+in users can be associated with a decreased fear of contracting COVID-19.
+
+
+## Where are the Most and Least Popular Stations?
+
+### Map of All Stations Compared with Household Income
+This map marks all of the starting bike stations and the ending bike stations used between January 2020 and June 2022, overlayed on each zip code. 
+The different zip code areas are color coded by 2018 median household income, with dark yellow being the lowest bracket and dark blue the highest. 
+Individual map markers are either blue, purple, or red; blue stations are neither in the Top 10 start or end stations list, purple are a Top 10 start 
+station, and red are a Top 10 end station. While most of the Top 10 start/end stations reside within high median income zip codes (07302, 07310, and 07030), 
+some zip codes with a lower median income also house Top 10 stations. These stations are generally near public transportation, like the Liberty Light Rail 
+station in zip code 07304 (median income: $41,300-$51,100).
+
+### Stations Dashboard
+The left side of the dashboard consists of a map of all the starting bike stations and a bar graph of station popularity, while the 
+right side contains the same information about the ending bike stations. Map markers range in color from dark blue (least popular) to white 
+(relatively popular) to dark purple (very popular) on a gradient scale and are shown relative to their zip codes. Clicking on a map marker 
+highlights that particular station on its corresponding bar graph, and vice versa. Due to the very specific latitude-longitude coordinates, 
+however, clicking on a specific station in the bar graph may highlight multiple map markers. The most popular starting and ending station is 
+Grove St PATH, located in zip code 07302. Grove St in Jersey City houses the Grove St train station, which would be a popular starting location 
+and/or final destination. Other popular stations, such as the Hoboken Terminal - Hudson St & Hudson Pl station, also reside near other transportation 
+options. 
+
+### Only Starting/Ending Stations
+These two maps are identical to the ones presented on the "Stations Dashboard," taking up a full page each to appreciate the color-coded markers and 
+zip code boundaries.
